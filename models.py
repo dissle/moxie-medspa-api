@@ -8,7 +8,7 @@ class ServiceModel:
 
     def create_service(self, service):
         #pass#Todo: db insert with postgresql db adapter
-        with open("data/new_service.json", 'w') as file:
+        with open("data/create_service.json", 'w') as file:
             data = service.dict();
             json.dump(data, file, indent=4)
             
