@@ -1,0 +1,4 @@
+Python 3.13.1
+FastAPI (fastapi[standard])
+Uvicorn (webserver)
+psycopg2 (PostgreSQL database adapter)
